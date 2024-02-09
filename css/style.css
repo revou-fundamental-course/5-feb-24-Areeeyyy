@@ -1,0 +1,26 @@
+h1 {
+    font-size: 12px;
+}
+
+/*Input Section*/
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.Konversi {
+    background-color: lightgray;
+    border-radius: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.Konversi:hover {
+    background-color: grey;
+}
+
+.Konversi:active {
+    background-color: red;
+    transform: translateY(2px);
+}
