@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konverter Suhu</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Konverter Suhu</h1>
+        <nav id="Navigation">
+        </nav>
+    </header>
+    <!-- Section -->
+    <section>
+        
+        <div class="input-section">
+            <label for="input">Celcius (°C)</label>
+            <input type="number" name="" id="input">
+        </div>
+        <div>
+            <button class="button" onclick="convert()" id="convert">Konversi</button>
+            <button class="button" onclick="reset()" id="reset">Reset</button>
+            <button class="button" onclick="reverse()" id="reverse">Reverse</button>
+        </div>
+        <div class="hasil">
+            <label for="hasil">Fahrenheit (°F)</label>
+            <p id="hasil"></p>
+        </div>
+        <div class="hasil-cara">
+            <label for="hasil-cara"> Cara Kalkulasi :</label>
+            <p id="hasil-cara"></p>
+        </div>
+        <div class="rumus">
+            <p>Rumus Konversi <br>
+                => °C = 5/9 * (°F - 32). <br> => °F = (9/5 * °C) + 32</p>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>   
+</html>
